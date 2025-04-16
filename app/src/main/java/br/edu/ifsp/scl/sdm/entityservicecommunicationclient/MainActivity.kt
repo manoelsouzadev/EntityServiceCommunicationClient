@@ -58,8 +58,8 @@ class MainActivity : AppCompatActivity() {
 
         incrementBoundServiceIntent = Intent().apply {
             component = ComponentName(
-                "br.edu.ifsp.scl.sdm. entityservicecommunication",
-                "br.edu. ifsp. scl.sdm. entityservicecommunication. IncrementBoundService"
+                "br.edu.ifsp.scl.sdm.entityservicecommunication",
+                "br.edu.ifsp.scl.sdm.entityservicecommunication.IncrementBoundService"
             )
         }
 
